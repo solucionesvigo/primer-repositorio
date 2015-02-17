@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+	<fieldset name="codigorecibo" label="COM_CONTACT_FORM_LABEL">
+		<field name="codigorecibo_codigo"
+			type="text"
+			id="codigorecibo-codigo"
+			size="30"
+			description="COM_CODIGORECIBO_CODIGORECIBO_CODIGO_DESC"
+			label="COM_CODIGORECIBO_CODIGORECIBO_CODIGO_LABEL"
+			filter="string"
+			required="true"
+		/>
+	</fieldset>
+</form>
+
+<!--	
+			description="COM_CODIGORECIBO_CODIGORECIBO_CODIGO_DESC"
+			label="COM_CODIGORECIBO_CODIGORECIBO_CODIGO_LABEL"
+			-->

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+  <fieldset>
+
+		<field name="id"
+			type="text"
+			label="JGLOBAL_FIELD_ID_LABEL"
+			description="JGLOBAL_FIELD_ID_DESC"
+			size="10"
+			default="0"
+			readonly="true"
+			class="readonly"
+		/>
+		
+<!--
+		<field name="created" 
+			type="calendar" 
+			label="COM_CODIGORECIBO_FIELD_CREATED_LABEL"
+			description="COM_CODIGORECIBO_FIELD_CREATED_DESC" 
+			class="readonly" size="22"
+			readonly="true"
+			format="%Y-%m-%d %H:%M:%S" 
+			filter="user_utc" 
+			/>
+-->
+			
+		<field name="codigo"
+			type="text"
+			label="COM_CODIGORECIBO_FIELD_CODIGO_LABEL"
+			description="COM_CODIGORECIBO_FIELD_CODIGO_DESC"
+			class="inputbox"
+			size="30"
+			required="true"
+		 />
+
+		<field name="recibo"
+			type="text"
+			label="COM_CODIGORECIBO_FIELD_RECIBO_LABEL"
+			description="COM_CODIGORECIBO_FIELD_RECIBO_DESC"
+			class="inputbox"
+			size="30"
+			required="true"
+		/>
+
+		<field name="tonelada"
+			type="text"
+			label="COM_CODIGORECIBO_FIELD_TONELADA_LABEL"
+			description="COM_CODIGORECIBO_FIELD_TONELADA_DESC"
+			class="inputbox"
+			size="30"
+			required="true"
+		/>
+
+        </fieldset>
+</form>
