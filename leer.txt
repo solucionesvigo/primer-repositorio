@@ -1,1 +1,2 @@
-componente cupon
+componente recibo cupon
+para joomla
