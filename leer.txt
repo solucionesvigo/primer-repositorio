@@ -1,4 +1,8 @@
 
+
+
+
+
 prueba de comando rebase , branch
 estamos en branch rama2 
 para bajar la actualizacion fetch nombreRepositorio,
